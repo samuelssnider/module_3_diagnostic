@@ -1,0 +1,3 @@
+class Station
+	def initialize
+	
