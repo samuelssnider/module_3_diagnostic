@@ -1,0 +1,11 @@
+<h2>Stations:</h2>
+<% @stations.each do |station| %>
+	<ul>
+	<ui>Name: <%= station.name %></ui>
+	<ui>Address: <%= station.adress %></ui>
+	<ui>Fuel Type: <%= station.fuel_type %></ui>
+	<ui>Distance: <%= station.distance %></ui>
+	<ui>Access Time: <%= station.access_time %></ui>
+	</ul>
+<% end %>
+	
