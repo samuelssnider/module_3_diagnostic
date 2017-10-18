@@ -14,7 +14,7 @@ class SearchController < ApplicationController
 				station_data["access_days_time"],
 				station_data["distance"]
 			)
-		@stations.s
+		@stations = @stations.sort_by {|station| station.distance }
 		end
 		
 	end
